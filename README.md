@@ -40,6 +40,8 @@ Finally, enable re-encoding. Set `Hardware accelerated decode (restart)` to a se
 
 ### Home Assistant Configuration
 
+NOTE: The Blue Iris System cameras (All and Cycle) won't be available/active unless there is more than one active camera in Blue Iris.
+
 ```YAML
 # Example configuration.yaml entry
 blueiris:
